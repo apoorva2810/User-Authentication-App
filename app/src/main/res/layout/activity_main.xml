@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,6 +13,8 @@
     android:text="Goto to Login Activity"
     android:textSize="25sp"
     android:background="@android:color/holo_green_dark"
-    android:gravity="center_vertical"/>
+    android:gravity="center_vertical"
+    android:layout_marginTop="200dp"
+    android:textAlignment="center"/>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
